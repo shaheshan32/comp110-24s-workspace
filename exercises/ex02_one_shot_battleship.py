@@ -35,7 +35,7 @@ elif guess_row != secret_row and guess_column == secret_column:
 else:
     print("Miss!")
 
-#making the grid and boxes
+#making the grid and boxes for battleship
 BLUE_BOX: str = "\U0001F7E6"
 RED_BOX: str = "\U0001F7E5"
 WHITE_BOX: str = "\U00002B1C"
