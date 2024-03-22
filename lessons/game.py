@@ -4,7 +4,6 @@ from random import randint
 SECRET: int = randint(1,10)
 correct: bool = False 
 
-
 while not correct: #or say correct == False 
     guess: int = int(input("Guess a number:"))
     if guess == SECRET:
